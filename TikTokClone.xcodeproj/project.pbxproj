@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2AA3972B07C71800BA4E86 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AA3962B07C71800BA4E86 /* NotificationsView.swift */; };
+		6C2AA3992B07C72A00BA4E86 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AA3982B07C72A00BA4E86 /* NotificationCell.swift */; };
 		6C3757282B051EC5003C4243 /* TikTokCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3757272B051EC5003C4243 /* TikTokCloneApp.swift */; };
 		6C37572A2B051EC5003C4243 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3757292B051EC5003C4243 /* ContentView.swift */; };
 		6C37572C2B051EC7003C4243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C37572B2B051EC7003C4243 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C2AA3962B07C71800BA4E86 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		6C2AA3982B07C72A00BA4E86 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		6C3757242B051EC5003C4243 /* TikTokClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3757272B051EC5003C4243 /* TikTokCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneApp.swift; sourceTree = "<group>"; };
 		6C3757292B051EC5003C4243 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 		6C37573F2B051F5D003C4243 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				6C2AA3962B07C71800BA4E86 /* NotificationsView.swift */,
+				6C2AA3982B07C72A00BA4E86 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -281,12 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C37574A2B052BAE003C4243 /* FeedView.swift in Sources */,
+				6C2AA3992B07C72A00BA4E86 /* NotificationCell.swift in Sources */,
 				6C37574C2B067504003C4243 /* FeedCell.swift in Sources */,
 				6C37572A2B051EC5003C4243 /* ContentView.swift in Sources */,
 				6C3757282B051EC5003C4243 /* TikTokCloneApp.swift in Sources */,
 				6C37574E2B067D4A003C4243 /* ExploreView.swift in Sources */,
 				6C3757462B051FD1003C4243 /* MainTabView.swift in Sources */,
 				6C3757502B067D68003C4243 /* UserCell.swift in Sources */,
+				6C2AA3972B07C71800BA4E86 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
